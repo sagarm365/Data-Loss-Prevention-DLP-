@@ -1,0 +1,9 @@
+Create a DLP policy for PII only for Exchange. Set encrypt content to enable.
+Steps:
+1.	Microsoft Purview portal  Data loss prevention  create policy
+2.	‘Privacy’ category -> select template ‘US: PII’
+3.	Give name and description and choose location ‘Exchange’ only
+4.	Next -> Restrict access in Ms 365 locations
+5.	Test policy 
+6.	Review & create
+	
