@@ -2,21 +2,26 @@
 Create a DLP policy for PII only for Exchange. Set encrypt content to enable.
 
 <h2>Description</h2>
-Project consists of a creating a Risk-based access policies as a part of Azure AD Identity Protection policies. Risk-based access policies, there are two types of risk policies in Azure Active Directory (Azure AD) Conditional Access we can set up to automate the response to risks and allow users to self-remediate when risk is detected: Sign-in risk policy and User-risk policy. In this practical, it is auto applying for High risk level.
+Project consists of a creating a Data Loss Prevention policy as a part of Compliance standards. Microsoft Purview Data Loss Prevention (DLP) helps you prevent the unintentional or accidental sharing of sensitive information. DLP examines email messages and files for sensitive information, like a credit card number,PII number. Using DLP you can detect sensitive information, and take action such as:
+   i. Log the event for auditing purposes
+   ii. Display a warning to the end user who is sending the email or sharing the file
+   iii. Actively block the email or file sharing from taking place
+
 <br />
 
 
 <h2>Environments Used </h2>
 
-- <b>Microsoft 365 Defender portal</b> 
+- <b>Microsoft Purview Compliance portal</b> 
 
 <h2>Prerequisites</h2>
 
 -<b> DLP policy for cloud apps can be created or modified by anyone assigned the following roles:
+ - Power Platform Administrator
  - Security Administrator
  - Global Administrator
  </b>
-- <b> Licenses: at-least Azure Active Directory Premium P1</b>
+- <b> Licenses:  Office 365 E3 or Microsoft 365 E3/E5 license</b>
 
 <h2>Program walk-through:</h2>
 
